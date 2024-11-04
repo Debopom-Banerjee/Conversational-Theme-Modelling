@@ -1,0 +1,78 @@
+{
+    "docId": <str>,
+    "metadata":{
+        "title": <str>,
+        "authors": [
+            {
+                "first": <str>,
+                "initial": <str>,
+                "last": <str>,
+                "email": <str>
+            },
+            ...
+        ],
+        "issn": <str>,
+        "volume": <str>,
+        "firstpage": <str>,
+        "lastpage": <str>,
+        "pub_year": <int>,
+        "doi": <str>,
+        "pmid": <str>,
+        "openaccess": "Full",
+        "subjareas": [<str>],
+        "keywords": [<str>],
+        "asjc": [<int>],
+    },
+    "abstract":[
+        {
+          "sentence": <str>,
+          "startOffset": <int>,
+          "endOffset": <int>
+        },
+        ...
+    ],
+    "bib_entries":{
+        "BIBREF0":{
+            "title":<str>,
+            "authors":[
+                {
+                "last":<str>,
+                "initial":<str>,
+                "first":<str>
+                },
+                ...
+            ],
+            "issn": <str>,
+            "volume": <str>,
+            "firstpage": <str>,
+            "lastpage": <str>,
+            "pub_year": <int>,
+            "doi": <str>,
+            "pmid": <str>
+        },
+        ...
+    },
+    "body_text":[
+        {
+        "sentence": <str>,
+        "secId": <str>,
+        "startOffset": <int>,
+        "endOffset": <int>,
+        "title": <str>,
+        "refoffsets": {
+            <str>:{
+                "endOffset":<int>,
+                "startOffset":<int>
+                }
+            },
+        "parents": [
+            {
+            "id": <str>,
+            "title": <str>
+            },
+            ...
+        ]
+    },
+    ...
+    ]
+}

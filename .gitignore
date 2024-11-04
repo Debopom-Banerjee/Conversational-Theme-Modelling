@@ -1,0 +1,4 @@
+train_data/
+test_data/
+cleaned_data.json
+cleaned_data.csv
